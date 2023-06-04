@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/index.css" > </link>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark " style="height: 100vh;">
+    
+  <div class="flex items-center flex-auto  justify-center">
+    <form action="/signup" method="post" class="bg-transparent shadow-2xl shadow-slate-900 border-2 border-slate-500 space-y-8 p-5 px-12 w-3/6">
+      <div class="text-center text-2xl font-extrabold  col-span-2">
+        signup and create invoice
+      </div>
+
+
+      <input type="text" id="name" name="name"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white  outline-0" placeholder="enter name" required />
+
+      <input type="text" id="username" name="username"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white  outline-0" placeholder="enter username" required />
+
+
+      <input type="tel" id="phone" name="phone"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white" placeholder="phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+
+      <input type="email" id="email" name="email"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white" placeholder="email address" required />
+
+
+      <input type="password" id="password" name="password"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white" placeholder="enter password" required />
+
+      <input type="password" id="confirm_password" name="confirm_password"
+        class="bg-gray-500 text-white  col-span-1 border-0 border-b-2 border-indigo-800  text-base focus:ring-0 w-full p-3 dark:text-white" placeholder="enter confirm password" required />
+
+      <span class=" text-sm font-medium  ml-auto text-dark">I already have an account ?
+        <a href="/signin" class="text-blue-700">login</a></span>
+      <button type="submit"
+        class="text-white font-bold  flex-auto bg-indigo-600 focus:outline-none focus:ring-blue-300 font-medium text-base  w-full py-3  text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Submit
+      </button>
+
+    </form>
+  </div>
+  </body>
+</html>

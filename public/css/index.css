@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Golos+Text:wght@400;500&family=Karla&family=Shantell+Sans&family=Slabo+27px&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gloock", serif;
+  font-family: "Golos Text", sans-serif;
+  font-family: "Karla", sans-serif;
+  /* font-family: "Shantell Sans", cursive; */
+  font-family: "Slabo 27px", serif;
+  box-sizing: border-box;
+}
+.main-container {
+    overflow: hidden;
+}
+.section {
+    padding-top: 7.42857143em;
+    padding-bottom: 7.42857143em;
+}
+
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-heading {
+    margin: 0 auto;
+    max-width: 870px;
+    padding-top: 120px;
+}
+
+.lead-wrap {
+    color: #333;
+    letter-spacing: normal;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.lead {
+    color: #333;
+    font-weight: 300;
+    line-height: 1.1;
+}
+

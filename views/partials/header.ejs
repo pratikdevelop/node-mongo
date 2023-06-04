@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/index.css" > </link>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-100vh w-100vw relative">
+    <nav
+      class=" fixed top-0 inset-x-0  shadow-md border-b-3 border-white px-2 sm:px-4 flex-auto rounded bg-white"
+    >
+      <div class="flex flex-wrap items-center justify-between">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <span
+            class="self-center text-3xl font-semibold whitespace-nowrap text-dark"
+            >Invoice app</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:text-sm md:font-medium md:border-0 dark:border-gray-700 items-center"
+          >
+            <!-- <li>
+              <a
+                href="/"
+                class="block font-semibold text-base py-2 pl-3 pr-4 text-dark bg-blue-700 rounded md:bg-transparent md:text-blue-700 dark:text-dark"
+                aria-current="page"
+                >Invoice</a
+              >
+            </li> -->
+            
+            <li>
+              <a
+                href="/signup"
+                class="block font-semibold text-base rounded-full py-2 px-8 text-white rounded bg-indigo-800 text-white \"
+                >signup</a
+              >
+            </li>
+            <li>
+              <a
+                href="/signin"
+                class="block font-semibold text-base rounded-full py-2 hover:text-gray-500 px-8 text-white  rounded border-2 bg-indigo-800 hover:bg-transparent border-indigo-800"
+                >signin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
